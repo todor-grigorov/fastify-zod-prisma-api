@@ -2,7 +2,7 @@
   "name": "react-challenge-backend",
   "version": "1.0.0",
   "private": true,
-  "description": "Minimal TypeScript Fastify API (classic layered: controller→service→repository) with Zod validation, Prisma (SQLite), and a tiny centralized error handler.",
+  "description": "TypeScript Fastify API (controller→service→repository) with Zod validation and Prisma 6.16.3 (SQLite).",
   "type": "module",
   "scripts": {
     "dev": "tsx src/server.ts",
@@ -17,18 +17,18 @@
   },
   "dependencies": {
     "@fastify/cors": "^9.0.0",
-    "@prisma/client": "^5.19.0",
+    "@prisma/client": "6.16.3",
     "fastify": "^4.28.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
-    "prisma": "^5.19.0",
+    "prisma": "6.16.3",
     "tsx": "^4.16.2",
     "typescript": "^5.5.4"
   },
   "engines": {
-    "node": ">=18.17"
+    "node": ">=18"
   },
   "keywords": [
     "fastify",
