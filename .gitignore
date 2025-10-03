@@ -1,0 +1,47 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+# (Keep lockfile if you want deterministic installs; remove this line to track it.)
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & coverage
+logs/
+*.log
+coverage/
+.nyc_output/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.history/
+
+# Prisma / SQLite
+/prisma/dev.db
+/prisma/test.db
+/prisma/*.sqlite
+/prisma/*.db
+/prisma/*.db-journal
+*.sqlite
+*.sqlite-journal
+
+# Runtime data
+tmp/
+temp/
+
+# Docker (optional)
+docker-data/
